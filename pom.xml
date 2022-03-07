@@ -15,6 +15,11 @@
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
     </properties>
 
+    <modules>
+        <module>demo_assembly</module>
+        <module>demo_video_local</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
