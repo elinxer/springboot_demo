@@ -8,6 +8,8 @@ nacos官网 https://nacos.io/zh-cn/docs/quick-start.html
 
 安装包地址：https://github.com/alibaba/nacos/releases
 
+nacos可以仅仅用来作为配置中心，不用注册中心也可以用的，当前既然用了nacos，那就一步到位
+
 # NACOS安装和配置参考
 
 ```
