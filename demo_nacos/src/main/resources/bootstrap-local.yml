@@ -1,0 +1,19 @@
+## 其次我们需要在配置文件中进行配置，采用bootstrap.yml文件进行配置，
+## 因为springboot会优先启动bootstrap.yml文件中的配置。其中文件内容如下
+spring:
+  application:
+    name: demo-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.241.130:8848
+        namespace: 6ed26cea-f77d-41d7-a048-b5dd431cc6f9
+      config:
+        server-addr: 192.168.241.130:8848
+        namespace: 6ed26cea-f77d-41d7-a048-b5dd431cc6f9
+        group: DEFAULT_GROUP
+        file-extension: yaml
+#        extension-configs:
+#          - data-id: common.yaml
+#            group: DEFAULT_GROUP
+#            refresh: true
