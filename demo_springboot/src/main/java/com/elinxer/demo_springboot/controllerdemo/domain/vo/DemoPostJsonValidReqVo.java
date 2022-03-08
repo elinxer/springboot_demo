@@ -1,8 +1,9 @@
-package com.elinxer.demo_springboot.domain.vo;
+package com.elinxer.demo_springboot.controllerdemo.domain.vo;
 
 import lombok.Data;
 
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 /**
  * @author elinx

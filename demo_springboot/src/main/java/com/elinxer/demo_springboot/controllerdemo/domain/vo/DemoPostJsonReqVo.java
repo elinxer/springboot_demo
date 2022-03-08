@@ -1,4 +1,4 @@
-package com.elinxer.demo_springboot.domain.vo;
+package com.elinxer.demo_springboot.controllerdemo.domain.vo;
 
 import lombok.Data;
 

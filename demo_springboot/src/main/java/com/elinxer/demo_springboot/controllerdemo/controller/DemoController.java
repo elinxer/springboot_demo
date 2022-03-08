@@ -1,17 +1,15 @@
-package com.elinxer.demo_springboot.controller;
+package com.elinxer.demo_springboot.controllerdemo.controller;
 
-import com.elinxer.demo_springboot.domain.vo.DemoPostJsonReqVo;
-import com.elinxer.demo_springboot.domain.vo.DemoPostJsonValidReqVo;
-import org.springframework.validation.annotation.Validated;
+import com.elinxer.demo_springboot.controllerdemo.domain.vo.DemoPostJsonReqVo;
+import com.elinxer.demo_springboot.controllerdemo.domain.vo.DemoPostJsonValidReqVo;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.validation.constraints.NotEmpty;
 
 /**
  * @author elinx
  */
-@RequestMapping("/demo")
+@RequestMapping("/controllerdemo")
 @RestController
 public class DemoController {
 
