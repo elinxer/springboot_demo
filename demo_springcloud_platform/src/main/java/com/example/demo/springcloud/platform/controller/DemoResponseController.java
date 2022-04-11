@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * http://127.0.0.1:8103/demo-response/index
+ *
  * @author elinx
  */
 @Slf4j

@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * @author elinx
  */
-@ComponentScan(value = {"com.example", "com.elinxer.springcloud.platform.core"})
 @SpringBootApplication
 public class DemoSpringcloudPlatformApplication {
 

@@ -26,12 +26,10 @@
             <groupId>com.elinxer</groupId>
             <artifactId>springcloud-platform-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.elinxer</groupId>
+            <artifactId>springcloud-platform-swagger</artifactId>
         </dependency>
     </dependencies>
     <build>
